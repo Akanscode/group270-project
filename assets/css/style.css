@@ -314,7 +314,7 @@ header .container {
 }
 
 .about .h2 {
-  color: var(--white);
+  color: white;
 }
 
 .about-top .section-title {
@@ -322,22 +322,22 @@ header .container {
 }
 
 .about-top .section-text {
-  color: var(--white);
+  color: white;
   font-size: var(--fs-4);
   margin-bottom: 60px;
 }
 
 .about-list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 30px;
 }
 
 .about-card {
-  background: var(--white);
+  background: black;
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+  box-shadow: 0 0 2px 4px hsla(0, 0%, 0%, 0.1);
 }
 
 .about-card .card-title {
@@ -346,7 +346,7 @@ header .container {
 }
 
 .about-card .card-text {
-  color: var(--davys-gray);
+  color: white;
   text-align: justify;
 }
 
